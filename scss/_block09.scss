@@ -1,0 +1,49 @@
+.b09 {
+	height: 660px;
+	padding-top: 100px;
+	background: url("../img/b09_bg.jpg") top center no-repeat;
+
+	h2 {
+		margin-bottom: 40px;
+		padding-bottom: 30px;
+
+		span {
+			color: #888;
+			display: block;
+			font-size: 18px;
+			font-weight: 300;
+			line-height: 28px;
+			font-family: $font-base;
+			text-transform: uppercase;
+		}
+	}
+
+	.left-col {
+		float: left;
+		width: 530px;
+		padding-top: 110px;
+		text-align: center;
+	}
+
+	.right-col {
+		float: right;
+		width: 440px;
+	}
+
+	.text-box {
+		color: #fff;
+		width: 296px;
+		height: 84px;
+		margin: 0 auto;
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 24px;
+		text-align: center;
+		padding-top: 10px;
+		background: url("../img/b09_item.png") 0 0 no-repeat;
+
+		span {
+			color: #272727;
+		}
+	}
+}

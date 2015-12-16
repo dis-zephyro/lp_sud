@@ -1,0 +1,113 @@
+@font-face {
+	font-family:'SegoeUI';
+	src: url('../fonts/SegoeUILight/SegoeUI-Light.eot');
+	src: url('../fonts/SegoeUILight/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/SegoeUILight/SegoeUI-Light.woff') format('woff'),
+	url('../fonts/SegoeUILight/SegoeUI-Light.ttf') format('truetype'),
+	url('../fonts/SegoeUILight/SegoeUI-Light.otf') format('opentype'),
+	url('../fonts/SegoeUILight/SegoeUI-Light.svg#SegoeUI-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-2666;
+}
+
+@font-face {
+	font-family:'SegoeUI';
+	src: url('../fonts/SegoeUIRegular/SegoeUI.eot');
+	src: url('../fonts/SegoeUIRegular/SegoeUI.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/SegoeUIRegular/SegoeUI.woff') format('woff'),
+	url('../fonts/SegoeUIRegular/SegoeUI.ttf') format('truetype'),
+	url('../fonts/SegoeUIRegular/SegoeUI.otf') format('opentype'),
+	url('../fonts/SegoeUIRegular/SegoeUI.svg#SegoeUI-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
+
+@font-face {
+	font-family:'SegoeUI';
+	src: url('../fonts/SegoeUISemiBold/SegoeUI-SemiBold.eot');
+	src: url('../fonts/SegoeUISemiBold/SegoeUI-SemiBold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/SegoeUISemiBold/SegoeUI-SemiBold.woff') format('woff'),
+	url('../fonts/SegoeUISemiBold/SegoeUI-SemiBold.ttf') format('truetype'),
+	url('../fonts/SegoeUISemiBold/SegoeUI-SemiBold.otf') format('opentype'),
+	url('../fonts/SegoeUISemiBold/SegoeUI-SemiBold.svg#SegoeUI-SemiBold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
+
+
+@font-face {
+	font-family:'SegoeUI';
+	src: url('../fonts/SegoeUIBold/SegoeUI-Bold.eot');
+	src: url('../fonts/SegoeUIBold/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/SegoeUIBold/SegoeUI-Bold.woff') format('woff'),
+	url('../fonts/SegoeUIBold/SegoeUI-Bold.ttf') format('truetype'),
+	url('../fonts/SegoeUIBold/SegoeUI-Bold.otf') format('opentype'),
+	url('../fonts/SegoeUIBold/SegoeUI-Bold.svg#SegoeUI-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2666;
+}
+
+
+@font-face {
+	font-family:'PFAgoraSlabPro';
+	src: url('../fonts/PFAgoraSlabPro-Regular/PFAgoraSlabPro-Regular_gdi.eot');
+	src: url('../fonts/PFAgoraSlabPro-Regular/PFAgoraSlabPro-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/PFAgoraSlabPro-Regular/PFAgoraSlabPro-Regular_gdi.woff') format('woff'),
+	url('../fonts/PFAgoraSlabPro-Regular/PFAgoraSlabPro-Regular_gdi.ttf') format('truetype'),
+	url('../fonts/PFAgoraSlabPro-Regular/PFAgoraSlabPro-Regular_gdi.otf') format('opentype'),
+	url('../fonts/PFAgoraSlabPro-Regular/PFAgoraSlabPro-Regular_gdi.svg#PFAgoraSlabPro-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'PFAgoraSlabPro';
+	src: url('../fonts/PFAgoraSlabPro-Medium/PFAgoraSlabPro-Medium_gdi.eot');
+	src: url('../fonts/PFAgoraSlabPro-Medium/PFAgoraSlabPro-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/PFAgoraSlabPro-Medium/PFAgoraSlabPro-Medium_gdi.woff') format('woff'),
+	url('../fonts/PFAgoraSlabPro-Medium/PFAgoraSlabPro-Medium_gdi.ttf') format('truetype'),
+	url('../fonts/PFAgoraSlabPro-Medium/PFAgoraSlabPro-Medium_gdi.otf') format('opentype'),
+	url('../fonts/PFAgoraSlabPro-Medium/PFAgoraSlabPro-Medium_gdi.svg#PFAgoraSlabPro-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'PFAgoraSlabPro';
+	src: url('../fonts/PFAgoraSlabPro-Bold/PFAgoraSlabPro-Bold_gdi.eot');
+	src: url('../fonts/PFAgoraSlabPro-Bold/PFAgoraSlabPro-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/PFAgoraSlabPro-Bold/PFAgoraSlabPro-Bold_gdi.woff') format('woff'),
+	url('../fonts/PFAgoraSlabPro-Bold/PFAgoraSlabPro-Bold_gdi.ttf') format('truetype'),
+	url('../fonts/PFAgoraSlabPro-Bold/PFAgoraSlabPro-Bold_gdi.otf') format('opentype'),
+	url('../fonts/PFAgoraSlabPro-Bold/PFAgoraSlabPro-Bold_gdi.svg#PFAgoraSlabPro-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+@font-face {
+	font-family:'PFAgoraSlabPro';
+	src: url('../fonts/PFAgoraSlabPro-Black/PFAgoraSlabPro-Black_gdi.eot');
+	src: url('../fonts/PFAgoraSlabPro-Black/PFAgoraSlabPro-Black_gdi.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/PFAgoraSlabPro-Black/PFAgoraSlabPro-Black_gdi.woff') format('woff'),
+	url('../fonts/PFAgoraSlabPro-Black/PFAgoraSlabPro-Black_gdi.ttf') format('truetype'),
+	url('../fonts/PFAgoraSlabPro-Black/PFAgoraSlabPro-Black_gdi.otf') format('opentype'),
+	url('../fonts/PFAgoraSlabPro-Black/PFAgoraSlabPro-Black_gdi.svg#PFAgoraSlabPro-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}

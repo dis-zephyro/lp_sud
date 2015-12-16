@@ -1,0 +1,114 @@
+
+.form-block {
+	color: #fff;
+	width: 440px;
+	padding: 10px;
+	background: #272727;
+
+	.form-inner {
+		padding: 40px 75px;
+		border: 1px solid $color-brown;
+	}
+
+	.form-title {
+		color: #fff;
+		font-size: 34px;
+		font-weight: 900;
+		line-height: 40px;
+		text-align: center;
+		padding-bottom: 25px;
+		font-family: $font-head;
+		text-transform: uppercase;
+		margin: 0 -40px 10px -40px;
+		background: url("../img/icon-form-cross.png") 50% 100% no-repeat;
+
+		span {
+			display: block;
+			font-size: 22px;
+			font-weight: 600;
+			line-height: 26px;
+			color: $color-brown;
+			font-family: $font-base;
+		}
+	}
+
+	ol {
+		margin: 0;
+		list-style: none;
+		padding: 0 0 20px 0;
+
+		li {
+			margin-bottom: 28px;
+		}
+	}
+}
+
+
+select,
+textarea,
+input[type="text"] {
+	margin: 0;
+	width: 100%;
+	border: none;
+	outline: none;
+	color: #a8a8a8;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 20px;
+	padding: 14px 10px;
+	text-align: center;
+	display: inline-block;
+	background: transparent;
+	border-bottom: 2px solid #464646;
+	@include placeholder(#a8a8a8);
+
+	&::-ms-clear {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+
+	&:focus {
+		@include placeholder(transparent);
+	}
+}
+
+.sendbutton {
+	margin:0;
+	width: 100%;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	padding: 20px 30px;
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: middle;
+	background-image: none;
+	background: $color-brown;
+	text-transform: uppercase;
+	touch-action: manipulation;
+
+	&:hover {
+		background: #ad894b;
+	}
+
+	&:active {
+		top: 1px;
+	}
+}
+
+
+label {
+	font-weight: 400;
+	display: block;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}

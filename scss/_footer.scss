@@ -1,0 +1,101 @@
+.footer {
+	height: 213px;
+	padding-top: 45px;
+	background: #181818;
+	border-bottom: 8px solid $color-brown;
+
+	.footer-left {
+		float: left;
+
+		.footer-text {
+			color: #fff;
+			font-size: 20px;
+			font-weight: 900;
+			line-height: 20px;
+			position: relative;
+			margin-bottom: 20px;
+			padding-bottom: 20px;
+			font-family: $font-head;
+			text-transform: uppercase;
+
+			&:before {
+				left: 0;
+				bottom: 0;
+				width: 50px;
+				height: 2px;
+				content: ' ';
+				position: absolute;
+				background: #464646;
+			}
+		}
+
+	}
+
+	.footer-right {
+		float: right;
+		width: 520px;
+
+		li {
+			float: left;
+			width: 50%;
+			text-align: right;
+			position: relative;
+
+			&:first-child {
+				padding-right: 40px;
+
+				&:before {
+					right: 0;
+					top: 5px;
+					width: 2px;
+					height: 50px;
+					content: ' ';
+					position: absolute;
+					background: #464646;
+				}
+			}
+		}
+
+		.phone {
+			color: #fff;
+			font-size: 26px;
+			font-weight: 900;
+			line-height: 30px;
+			font-family: $font-head;
+			text-decoration: none;
+		}
+
+		.email {
+			color: #888;
+			font-size: 18px;
+			font-weight: 300;
+			line-height: 30px;
+			padding-left: 30px;
+			text-decoration: none;
+			background: url("../img/icon-mail.png") 0 50% no-repeat;
+		}
+
+		.address {
+			color: #fff;
+			font-size: 14px;
+			line-height: 20px;
+		}
+
+		.oferta {
+			color: #666;
+			font-size: 12px;
+			margin-bottom: 5px;
+		}
+
+		.map {
+
+			a {
+				font-size: 13px;
+				font-weight: 600;
+				color: $color-brown;
+				padding-right: 20px;
+				background: url("../img/icon-arrow.png") 100% 50% no-repeat;
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+.b03 {
+	height: 879px;
+	padding-top: 85px;
+	padding-bottom: 85px;
+	background: url("../img/b03_bg.jpg") top center no-repeat;
+
+	.advantage {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+
+
+		td {
+			width: 33.33%;
+			height: 280px;
+			cursor: pointer;
+			overflow: hidden;
+			background: #fff;
+			padding-top: 65px;
+			text-align: center;
+			position: relative;
+			vertical-align: top;
+			border: 1px solid #dcdcdc;
+			@include transition(.3s);
+
+			img {
+				display: block;
+				margin: 0 auto 15px auto;
+			}
+
+			span {
+				color: #666;
+				display: block;
+				font-size: 14px;
+				font-weight: 700;
+				line-height: 20px;
+				margin-bottom: 10px;
+				text-transform: uppercase;
+			}
+
+			.text {
+				left: 0;
+				right: 0;
+				top: 235px;
+				color: #666;
+				height: 100px;
+				padding: 0 30px;
+				position: absolute;
+				@include opacity(.3);
+				@include transition(.3s);
+			}
+
+			&:hover {
+				padding-top: 30px;
+				background: #f9f9f9;
+
+				@include transition(.3s);
+
+				.text {
+					top: 170px;
+					@include opacity(1);
+					@include transition(.3s);
+				}
+			}
+		}
+	}
+}

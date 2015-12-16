@@ -1,0 +1,94 @@
+.b06 {
+	color: #fff;
+	height: 900px;
+	padding-top: 90px;
+	background: url("../img/b06_bg.jpg") top center no-repeat;
+
+	h2 {
+		color: #fff;
+		margin-bottom: 90px;
+	}
+
+	.review-block {
+		width: 100%;
+		height: 425px;
+		overflow: hidden;
+	}
+
+	.review {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			float: left;
+			width: 240px;
+			text-align: center;
+			margin-right: 130px;
+
+			&:last-child {
+				float: right;
+				margin-right: 0;
+			}
+		}
+
+		.review-item {
+			height: 340px;
+			position: relative;
+
+			.review-image {
+				width: 100%;
+				height: 340px;
+				overflow: hidden;
+			}
+
+			.review-text {
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				color: #fff;
+				display: none;
+				font-size: 13px;
+				font-weight: 600;
+				overflow: hidden;
+				line-height: 20px;
+				position: absolute;
+				padding: 60px 20px 30px 20px;
+				background: $color-brown url("../img/icon-quote.png") 50% 20px no-repeat;
+			}
+
+			&:hover {
+
+				.review-text {
+					display: block;
+				}
+			}
+		}
+
+		.review-author {
+			height: 85px;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 21px;
+			padding-top: 26px;
+			border-bottom: 1px solid $color-brown;
+
+			span {
+				color: #888;
+				font-size: 13px;
+				display: block;
+			}
+		}
+	}
+
+	.review-more {
+		padding-top: 80px;
+
+		.text {
+			font-size: 16px;
+			line-height: 20px;
+			padding: 15px 20px;
+		}
+	}
+}
