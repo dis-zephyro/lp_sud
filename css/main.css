@@ -253,6 +253,7 @@ th {
 
 html {
   font-size: 10px;
+  min-width: 1000px;
   -webkit-tap-highlight-color: transparent; }
 
 body {
@@ -1468,9 +1469,9 @@ label {
       padding-right: 20px;
       background: url("../img/icon-arrow.png") 100% 50% no-repeat; }
 
-.map {
+.map-block {
   width: 640px; }
-  .map #map {
+  .map-block #map {
     width: 640px;
     height: 360px; }
 
