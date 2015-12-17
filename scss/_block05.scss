@@ -23,6 +23,7 @@
 			&:hover {
 
 				.result-value {
+					@include transition(.3s);
 					color: $color-brown;
 				}
 			}
@@ -37,6 +38,7 @@
 			text-align: center;
 			position: absolute;
 			font-family: $font-head;
+			@include transition(.3s);
 
 			span {
 				margin-top: -5px;
