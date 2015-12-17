@@ -35,6 +35,7 @@
 		.review-item {
 			height: 340px;
 			position: relative;
+			@include transition(.3s);
 
 			.review-image {
 				width: 100%;
@@ -48,7 +49,7 @@
 				right: 0;
 				bottom: 0;
 				color: #fff;
-				display: none;
+				display: block;
 				font-size: 13px;
 				font-weight: 600;
 				overflow: hidden;
@@ -56,12 +57,16 @@
 				position: absolute;
 				padding: 60px 20px 30px 20px;
 				background: $color-brown url("../img/icon-quote.png") 50% 20px no-repeat;
+				@include opacity(0);
+				@include transition(.3s);
 			}
 
 			&:hover {
+				@include transition(.3s);
 
 				.review-text {
-					display: block;
+					@include opacity(1);
+					@include transition(.3s);
 				}
 			}
 		}

@@ -57,15 +57,24 @@
 			display: block;
 			cursor: pointer;
 			position: absolute;
+			background: url("../img/lawyer-nav.png") no-repeat;
 
 			&.prev {
 				left: 0;
-				background: url("../img/lawyer-nav-prev.png") 0 0 no-repeat;
+				background-position: 0 0;
+
+				&:hover {
+					background-position: 0 -8px;
+				}
 			}
 
 			&.next {
 				right: 0;
-				background: url("../img/lawyer-nav-next.png") 0 0 no-repeat;
+				background-position: -14px 0;
+
+				&:hover {
+					background-position: -14px -8px;
+				}
 			}
 		}
 	}

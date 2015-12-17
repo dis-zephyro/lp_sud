@@ -19,12 +19,18 @@
 			overflow: hidden;
 			position: relative;
 			margin-bottom: 20px;
+
+			&:hover {
+
+				.result-value {
+					color: $color-brown;
+				}
+			}
 		}
 
 		.result-value {
 			float: left;
 			width: 140px;
-
 			font-size: 60px;
 			font-weight: 900;
 			line-height: 60px;

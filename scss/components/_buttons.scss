@@ -16,6 +16,7 @@
 	background: transparent;
 	touch-action: manipulation;
 	border: 1px solid $color-brown;
+	@include transition(.3s);
 
 	&:after {
 		top: 0;
@@ -31,6 +32,7 @@
 
 	&:hover {
 		color: #fff;
+		@include transition(.3s);
 		text-decoration: none;
 		background: $color-brown;
 
